@@ -72,6 +72,43 @@
       "options": {
         "buildTarget": "web:build"
       }
+    },
+    "storybook": {
+      "executor": "@nx/storybook:storybook",
+      "options": {
+        "port": 4400,
+        "configDir": "apps/web/.storybook"
+      },
+      "configurations": {
+        "ci": {
+          "quiet": true
+        }
+      }
+    },
+    "build-storybook": {
+      "executor": "@nx/storybook:build",
+      "outputs": ["{options.outputDir}"],
+      "options": {
+        "outputDir": "dist/storybook/web",
+        "configDir": "apps/web/.storybook"
+      },
+      "configurations": {
+        "ci": {
+          "quiet": true
+        }
+      }
+    },
+    "static-storybook": {
+      "executor": "@nx/web:file-server",
+      "options": {
+        "buildTarget": "web:build-storybook",
+        "staticFilePath": "dist/storybook/web"
+      },
+      "configurations": {
+        "ci": {
+          "buildTarget": "web:build-storybook:ci"
+        }
+      }
     }
   },
   "tags": []
