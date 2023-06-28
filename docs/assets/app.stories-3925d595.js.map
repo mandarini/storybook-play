@@ -1,0 +1,1 @@
+{"version":3,"file":"app.stories-3925d595.js","sources":["../../apps/my-app/src/app/app.tsx"],"sourcesContent":["export function App() {\n  return (\n    <div>\n      <h1>Welcome my-app!</h1>\n    </div>\n  );\n}\n\nexport default App;\n"],"names":["App","jsx"],"mappings":"2QAAO,SAASA,GAAM,CACpB,OACGC,MAAA,MAAA,CACC,SAACA,EAAA,IAAA,KAAA,CAAG,2BAAe,CACrB,CAAA,CAEJ;;;;;;;;;"}
