@@ -19,5 +19,9 @@ export const ButtonClicked: Story = {
     expect(canvas.getByRole('button').innerText).toBe(
       "You've clicked me 1 times"
     );
+    await userEvent.click(button);
+    expect(canvas.getByRole('button').innerText).toBe(
+      "You've clicked me 2 times"
+    );
   },
 };
