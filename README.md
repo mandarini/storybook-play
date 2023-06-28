@@ -23,3 +23,9 @@ On a new terminal run:
 ```bash
 npx nx test-storybook my-app
 ```
+
+## See the files
+
+- [`apps/my-app/src/app/sample-text/sample-text.stories.tsx`](apps/my-app/src/app/sample-text/sample-text.stories.tsx)
+- [`apps/my-app/src/app/button/button.stories.tsx`](apps/my-app/src/app/button/button.stories.tsx)
+- [`apps/my-app/src/app/app.stories.tsx`](apps/my-app/src/app/app.stories.tsx)
