@@ -89,7 +89,7 @@
       "executor": "@nx/storybook:build",
       "outputs": ["{options.outputDir}"],
       "options": {
-        "outputDir": "docs",
+        "outputDir": "storybook-static",
         "configDir": "apps/my-app/.storybook"
       },
       "configurations": {
@@ -108,7 +108,7 @@
       "executor": "@nx/web:file-server",
       "options": {
         "buildTarget": "my-app:build-storybook",
-        "staticFilePath": "docs"
+        "staticFilePath": "storybook-static"
       },
       "configurations": {
         "ci": {

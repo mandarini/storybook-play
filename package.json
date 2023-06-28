@@ -2,7 +2,11 @@
   "name": "@storybook-play/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "build-storybook": "nx build-storybook my-app",
+    "storybook": "nx storybook my-app",
+    "serve-storybook": "nx static-storybook my-app"
+  },
   "private": true,
   "dependencies": {
     "@swc/helpers": "~0.5.0",
@@ -59,4 +63,3 @@
     "vitest": "^0.32.0"
   }
 }
-
