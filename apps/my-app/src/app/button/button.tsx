@@ -7,7 +7,12 @@ export function Button() {
     setCount(count + 1);
   };
 
-  return <button onClick={handleClick}>You've clicked me {count} times</button>;
+  return (
+    // eslint-disable-next-line jsx-a11y/no-redundant-roles
+    <button role="button" onClick={handleClick}>
+      You've clicked me {count} times
+    </button>
+  );
 }
 
 export default Button;

@@ -14,8 +14,10 @@ type Story = StoryObj<typeof Button>;
 export const ButtonClicked: Story = {
   play: async ({ canvasElement }) => {
     const canvas = within(canvasElement);
-    const button = canvas.getByText("You've clicked me 0 times");
-    userEvent.click(button);
-    await expect(canvas.getByText("You've clicked me 1 times")).toBeDefined();
+    const button = canvas.getByRole('button');
+    await userEvent.click(button);
+    expect(canvas.getByRole('button').innerText).toBe(
+      "You've clicked me 1 times"
+    );
   },
 };

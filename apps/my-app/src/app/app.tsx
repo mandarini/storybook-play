@@ -1,10 +1,7 @@
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-import styles from './app.module.css';
-
 export function App() {
   return (
     <div>
-      <button>Hello</button>{' '}
+      <h1>Welcome my-app!</h1>
     </div>
   );
 }
