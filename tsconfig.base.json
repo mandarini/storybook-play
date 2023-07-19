@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@storybook-play/nglib": ["libs/nglib/src/index.ts"]
+      "@storybook-play/nglib": ["libs/nglib/src/index.ts"],
+      "@storybook-play/nglib12": ["libs/nglib12/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
