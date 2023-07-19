@@ -59,7 +59,7 @@
     "test-storybook": {
       "executor": "nx:run-commands",
       "options": {
-        "command": "test-storybook -c apps/my-app/.storybook --url=http://localhost:4400"
+        "command": "test-storybook -c libs/nglib/.storybook --url=http://localhost:4400"
       }
     },
     "static-storybook": {
