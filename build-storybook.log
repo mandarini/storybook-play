@@ -1,0 +1,92 @@
+
+> @storybook-play/source@0.0.0 build-storybook
+> nx build-storybook my-app --output-dir /var/folders/1b/3z_nkx7x4lb6dt48ps60w1vw0000gn/T/chromatic--7472-Vf2C9mpQ3N1K
+
+
+> nx run my-app:build-storybook --output-dir /var/folders/1b/3z_nkx7x4lb6dt48ps60w1vw0000gn/T/chromatic--7472-Vf2C9mpQ3N1K
+
+
+>  NX  Storybook builder starting ...
+
+info => Cleaning outputDir: /var/folders/1b/3z_nkx7x4lb6dt48ps60w1vw0000gn/T/chromatic--7472-Vf2C9mpQ3N1K
+info => Loading presets
+info => Building manager..
+info => Manager built (84 ms)
+info => Copying static files: /Users/fileas/Projects/nrwl/test-nx-workspaces/storybook-play/node_modules/@storybook/manager/static at /var/folders/1b/3z_nkx7x4lb6dt48ps60w1vw0000gn/T/chromatic--7472-Vf2C9mpQ3N1K/sb-common-assets
+vite v4.3.9 building for production...
+
+./sb-common-assets/fonts.css doesn't exist at build time, it will remain unchanged to be resolved at runtime
+transforming...
+[plugin:vite:resolve] Module "path" has been externalized for browser compatibility, imported by "/Users/fileas/Projects/nrwl/test-nx-workspaces/storybook-play/node_modules/jest-util/build/requireOrImportModule.js". See http://vitejs.dev/guide/troubleshooting.html#module-externalized-for-browser-compatibility for more details.
+[plugin:vite:resolve] Module "fs" has been externalized for browser compatibility, imported by "/Users/fileas/Projects/nrwl/test-nx-workspaces/storybook-play/node_modules/graceful-fs/graceful-fs.js". See http://vitejs.dev/guide/troubleshooting.html#module-externalized-for-browser-compatibility for more details.
+[plugin:vite:resolve] Module "constants" has been externalized for browser compatibility, imported by "/Users/fileas/Projects/nrwl/test-nx-workspaces/storybook-play/node_modules/graceful-fs/polyfills.js". See http://vitejs.dev/guide/troubleshooting.html#module-externalized-for-browser-compatibility for more details.
+[plugin:vite:resolve] Module "stream" has been externalized for browser compatibility, imported by "/Users/fileas/Projects/nrwl/test-nx-workspaces/storybook-play/node_modules/graceful-fs/legacy-streams.js". See http://vitejs.dev/guide/troubleshooting.html#module-externalized-for-browser-compatibility for more details.
+[plugin:vite:resolve] Module "path" has been externalized for browser compatibility, imported by "/Users/fileas/Projects/nrwl/test-nx-workspaces/storybook-play/node_modules/picomatch/lib/picomatch.js". See http://vitejs.dev/guide/troubleshooting.html#module-externalized-for-browser-compatibility for more details.
+[plugin:vite:resolve] Module "path" has been externalized for browser compatibility, imported by "/Users/fileas/Projects/nrwl/test-nx-workspaces/storybook-play/node_modules/picomatch/lib/constants.js". See http://vitejs.dev/guide/troubleshooting.html#module-externalized-for-browser-compatibility for more details.
+[plugin:vite:resolve] Module "path" has been externalized for browser compatibility, imported by "/Users/fileas/Projects/nrwl/test-nx-workspaces/storybook-play/node_modules/picomatch/lib/utils.js". See http://vitejs.dev/guide/troubleshooting.html#module-externalized-for-browser-compatibility for more details.
+node_modules/telejson/dist/index.mjs (1394:15) Use of eval in "node_modules/telejson/dist/index.mjs" is strongly discouraged as it poses security risks and may cause issues with minification.
+node_modules/telejson/dist/index.mjs (1397:18) Use of eval in "node_modules/telejson/dist/index.mjs" is strongly discouraged as it poses security risks and may cause issues with minification.
+✓ 1466 modules transformed.
+Generated an empty chunk: "preview".
+rendering chunks...
+computing gzip size...
+../../../../../../../../var/folders/1b/3z_nkx7x4lb6dt48ps60w1vw0000gn/T/chromatic--7472-Vf2C9mpQ3N1K/iframe.html                                          12.63 kB │ gzip:   3.60 kB
+../../../../../../../../var/folders/1b/3z_nkx7x4lb6dt48ps60w1vw0000gn/T/chromatic--7472-Vf2C9mpQ3N1K/assets/katerinajs.stories-e3b0c442.css                0.00 kB │ gzip:   0.02 kB
+../../../../../../../../var/folders/1b/3z_nkx7x4lb6dt48ps60w1vw0000gn/T/chromatic--7472-Vf2C9mpQ3N1K/assets/preview-4ed993c7.js                            0.05 kB │ gzip:   0.07 kB │ map:     0.10 kB
+../../../../../../../../var/folders/1b/3z_nkx7x4lb6dt48ps60w1vw0000gn/T/chromatic--7472-Vf2C9mpQ3N1K/assets/assert-a1982797.js                             0.13 kB │ gzip:   0.14 kB │ map:     0.54 kB
+../../../../../../../../var/folders/1b/3z_nkx7x4lb6dt48ps60w1vw0000gn/T/chromatic--7472-Vf2C9mpQ3N1K/assets/index-d475d2ea.js                              0.21 kB │ gzip:   0.17 kB │ map:     0.85 kB
+../../../../../../../../var/folders/1b/3z_nkx7x4lb6dt48ps60w1vw0000gn/T/chromatic--7472-Vf2C9mpQ3N1K/assets/_commonjs-dynamic-modules-302442b1.js          0.30 kB │ gzip:   0.24 kB │ map:     0.12 kB
+../../../../../../../../var/folders/1b/3z_nkx7x4lb6dt48ps60w1vw0000gn/T/chromatic--7472-Vf2C9mpQ3N1K/assets/WithTooltip-I4CCNYWD-7e186929.js               0.53 kB │ gzip:   0.33 kB │ map:     0.11 kB
+../../../../../../../../var/folders/1b/3z_nkx7x4lb6dt48ps60w1vw0000gn/T/chromatic--7472-Vf2C9mpQ3N1K/assets/syntaxhighlighter-SIPZPD4I-ef90c8fc.js         0.55 kB │ gzip:   0.35 kB │ map:     0.12 kB
+../../../../../../../../var/folders/1b/3z_nkx7x4lb6dt48ps60w1vw0000gn/T/chromatic--7472-Vf2C9mpQ3N1K/assets/preview-3eef9771.js                            0.59 kB │ gzip:   0.38 kB │ map:     0.59 kB
+../../../../../../../../var/folders/1b/3z_nkx7x4lb6dt48ps60w1vw0000gn/T/chromatic--7472-Vf2C9mpQ3N1K/assets/index-c7d191cf.js                              0.63 kB │ gzip:   0.40 kB │ map:     4.30 kB
+../../../../../../../../var/folders/1b/3z_nkx7x4lb6dt48ps60w1vw0000gn/T/chromatic--7472-Vf2C9mpQ3N1K/assets/_commonjsHelpers-042e6b4d.js                   0.78 kB │ gzip:   0.44 kB │ map:     0.11 kB
+../../../../../../../../var/folders/1b/3z_nkx7x4lb6dt48ps60w1vw0000gn/T/chromatic--7472-Vf2C9mpQ3N1K/assets/index-356e4a49.js                              0.81 kB │ gzip:   0.51 kB │ map:     3.28 kB
+../../../../../../../../var/folders/1b/3z_nkx7x4lb6dt48ps60w1vw0000gn/T/chromatic--7472-Vf2C9mpQ3N1K/assets/preview-b79ea209.js                            0.90 kB │ gzip:   0.60 kB │ map:     2.95 kB
+../../../../../../../../var/folders/1b/3z_nkx7x4lb6dt48ps60w1vw0000gn/T/chromatic--7472-Vf2C9mpQ3N1K/assets/app.stories-328e8ea5.js                        1.18 kB │ gzip:   0.60 kB │ map:     0.45 kB
+../../../../../../../../var/folders/1b/3z_nkx7x4lb6dt48ps60w1vw0000gn/T/chromatic--7472-Vf2C9mpQ3N1K/assets/uniq-2a5ad67e.js                               1.20 kB │ gzip:   0.69 kB │ map:    11.18 kB
+../../../../../../../../var/folders/1b/3z_nkx7x4lb6dt48ps60w1vw0000gn/T/chromatic--7472-Vf2C9mpQ3N1K/assets/katerinajs.stories-42de3db1.js                 1.32 kB │ gzip:   0.67 kB │ map:     0.63 kB
+../../../../../../../../var/folders/1b/3z_nkx7x4lb6dt48ps60w1vw0000gn/T/chromatic--7472-Vf2C9mpQ3N1K/assets/katerina.stories-879b4592.js                   1.34 kB │ gzip:   0.68 kB │ map:     0.71 kB
+../../../../../../../../var/folders/1b/3z_nkx7x4lb6dt48ps60w1vw0000gn/T/chromatic--7472-Vf2C9mpQ3N1K/assets/button.stories-b84aae04.js                     1.42 kB │ gzip:   0.66 kB │ map:     0.89 kB
+../../../../../../../../var/folders/1b/3z_nkx7x4lb6dt48ps60w1vw0000gn/T/chromatic--7472-Vf2C9mpQ3N1K/assets/sample-text.stories-d08901c7.js                1.51 kB │ gzip:   0.72 kB │ map:     0.62 kB
+../../../../../../../../var/folders/1b/3z_nkx7x4lb6dt48ps60w1vw0000gn/T/chromatic--7472-Vf2C9mpQ3N1K/assets/preview-a60aa466.js                            2.40 kB │ gzip:   1.25 kB │ map:    11.16 kB
+../../../../../../../../var/folders/1b/3z_nkx7x4lb6dt48ps60w1vw0000gn/T/chromatic--7472-Vf2C9mpQ3N1K/assets/preview-770cc08b.js                            3.22 kB │ gzip:   1.39 kB │ map:    10.08 kB
+../../../../../../../../var/folders/1b/3z_nkx7x4lb6dt48ps60w1vw0000gn/T/chromatic--7472-Vf2C9mpQ3N1K/assets/iframe-4a12eea4.js                             5.38 kB │ gzip:   1.72 kB │ map:     5.59 kB
+../../../../../../../../var/folders/1b/3z_nkx7x4lb6dt48ps60w1vw0000gn/T/chromatic--7472-Vf2C9mpQ3N1K/assets/preview-d8c963a4.js                            7.67 kB │ gzip:   1.60 kB │ map:    13.74 kB
+../../../../../../../../var/folders/1b/3z_nkx7x4lb6dt48ps60w1vw0000gn/T/chromatic--7472-Vf2C9mpQ3N1K/assets/preview-25cb0eda.js                            8.33 kB │ gzip:   3.21 kB │ map:    29.42 kB
+../../../../../../../../var/folders/1b/3z_nkx7x4lb6dt48ps60w1vw0000gn/T/chromatic--7472-Vf2C9mpQ3N1K/assets/index-da07a199.js                             13.66 kB │ gzip:   5.12 kB │ map:    53.19 kB
+../../../../../../../../var/folders/1b/3z_nkx7x4lb6dt48ps60w1vw0000gn/T/chromatic--7472-Vf2C9mpQ3N1K/assets/GlobalScrollAreaStyles-DZEYMYDM-10abcb45.js   15.13 kB │ gzip:   2.87 kB │ map:    21.44 kB
+../../../../../../../../var/folders/1b/3z_nkx7x4lb6dt48ps60w1vw0000gn/T/chromatic--7472-Vf2C9mpQ3N1K/assets/Color-6VNJS4EI-61e1e601.js                    17.72 kB │ gzip:   6.82 kB │ map:    59.63 kB
+../../../../../../../../var/folders/1b/3z_nkx7x4lb6dt48ps60w1vw0000gn/T/chromatic--7472-Vf2C9mpQ3N1K/assets/_baseIsEqual-3894ead5.js                      20.57 kB │ gzip:   8.19 kB │ map:   116.02 kB
+../../../../../../../../var/folders/1b/3z_nkx7x4lb6dt48ps60w1vw0000gn/T/chromatic--7472-Vf2C9mpQ3N1K/assets/OverlayScrollbars-OGE3XJTA-33ff2a62.js        28.95 kB │ gzip:  14.21 kB │ map:   107.65 kB
+../../../../../../../../var/folders/1b/3z_nkx7x4lb6dt48ps60w1vw0000gn/T/chromatic--7472-Vf2C9mpQ3N1K/assets/browser-afc52ab4.js                           37.81 kB │ gzip:  12.63 kB │ map:   124.58 kB
+../../../../../../../../var/folders/1b/3z_nkx7x4lb6dt48ps60w1vw0000gn/T/chromatic--7472-Vf2C9mpQ3N1K/assets/preview-fb51a0b5.js                          104.31 kB │ gzip:  35.63 kB │ map:   418.11 kB
+../../../../../../../../var/folders/1b/3z_nkx7x4lb6dt48ps60w1vw0000gn/T/chromatic--7472-Vf2C9mpQ3N1K/assets/_getPrototype-edd6cc07.js                    199.75 kB │ gzip:  61.64 kB │ map:   555.55 kB
+../../../../../../../../var/folders/1b/3z_nkx7x4lb6dt48ps60w1vw0000gn/T/chromatic--7472-Vf2C9mpQ3N1K/assets/config-6589d5a6.js                           213.99 kB │ gzip:  66.67 kB │ map:   805.96 kB
+../../../../../../../../var/folders/1b/3z_nkx7x4lb6dt48ps60w1vw0000gn/T/chromatic--7472-Vf2C9mpQ3N1K/assets/DocsRenderer-3PUGWF3O-e617a856.js            518.22 kB │ gzip: 170.58 kB │ map: 1,480.56 kB
+../../../../../../../../var/folders/1b/3z_nkx7x4lb6dt48ps60w1vw0000gn/T/chromatic--7472-Vf2C9mpQ3N1K/assets/formatter-OJ5LH2CX-86a9590c.js               601.72 kB │ gzip: 185.09 kB │ map: 1,314.29 kB
+../../../../../../../../var/folders/1b/3z_nkx7x4lb6dt48ps60w1vw0000gn/T/chromatic--7472-Vf2C9mpQ3N1K/assets/index-638c7851.js                            652.34 kB │ gzip: 185.42 kB │ map: 1,988.78 kB
+
+(!) Some chunks are larger than 500 kBs after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 4.31s
+info => Output directory: /var/folders/1b/3z_nkx7x4lb6dt48ps60w1vw0000gn/T/chromatic--7472-Vf2C9mpQ3N1K
+
+>  NX  Storybook builder finished ...
+
+
+>  NX  Storybook files available in /var/folders/1b/3z_nkx7x4lb6dt48ps60w1vw0000gn/T/chromatic--7472-Vf2C9mpQ3N1K
+
+
+ 
+
+ >  NX   Successfully ran target build-storybook for project my-app
+
+
+
+ >  NX   Nx Cloud Problems
+
+   - Error when connecting to Nx Cloud. Code: ERR_BAD_REQUEST. Error: This workspace is more than a week old and is unclaimed. Workspaces must be claimed within 7 days of creation. Claim your workspace at https://cloud.nx.app/orgs/workspace-setup?accessToken=OTIwZTZlMzgtYjFjMS00MzZkLTk5NjAtZjQyZWU2ZGM0MThifHJlYWQtd3JpdGU=.
+

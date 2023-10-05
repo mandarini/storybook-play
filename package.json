@@ -5,7 +5,8 @@
   "scripts": {
     "build-storybook": "nx build-storybook my-app",
     "storybook": "nx storybook my-app",
-    "serve-storybook": "nx static-storybook my-app"
+    "serve-storybook": "nx static-storybook my-app",
+    "chromatic": "npx chromatic --project-token=chpt_f744f8cfe3efe7a"
   },
   "private": true,
   "dependencies": {
@@ -68,6 +69,7 @@
     "@vitejs/plugin-react": "^4.0.0",
     "@vitest/coverage-c8": "^0.32.0",
     "@vitest/ui": "^0.32.0",
+    "chromatic": "^7.2.2",
     "cypress": "12.16.0",
     "eslint": "~8.15.0",
     "eslint-config-prettier": "8.1.0",
